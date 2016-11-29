@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<script src="~/Scripts/index.js"></script>
+
+<div class="row" style="margin-top:50px;">
+    <form>
+        <div class="form-group">
+            <h2>Buscador RNC por Cédula</h2>
+            <label for="exampleInputEmail1">Cedula</label>
+            <input type="text" class="form-control" id="txtCedula" placeholder="Entra Numero de Cedula">
+        </div>
+        
+        <button type="submit" id="btnGo" class="btn btn-default">Consultar</button>
+
+        <section id="listado">
+            <h3>Listado de Empresas</h3>
+            <div id="result">
+            </div>
+        </section>
+        
+
+    </form>
+</div>
