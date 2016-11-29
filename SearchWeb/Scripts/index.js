@@ -22,7 +22,7 @@
                     {                        
                         current++;
                        
-                        $("#result").append(data.Name + "Rif:" + data.Rif + "<br />");
+                        $("#result").append(data.Name + " Rif:" + data.Rif + "<br />");
 
                         if(current==count)
                             $("#btnGo").text("Consultar").prop("disabled", false);
